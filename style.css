@@ -1,11 +1,22 @@
+/*.body {
+
+}*/
+
 .page1Header {
-    padding: 5%;
+    width: 35%;
+    height: 2.5%;
+    /*padding: 5%;*/
     text-align: center;
-    background: linear-gradient(to bottom, #3ab1ba, #85e0e7);
-    border-radius: 2%;
-    color: white;
+    border-radius: 10px;
+    color: black;
+    background: linear-gradient(to bottom, #e88b69, #d5a064);
+    border: 2px solid #db7955;
+    margin: auto;
 }
 
 .page1Header h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-stretch: expanded;
 }
+
