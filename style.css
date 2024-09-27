@@ -1,14 +1,18 @@
 body {
+    height: 100%;
     background: linear-gradient(90deg, #e66465, #9198e5);
 }
 
 .headerContainer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
     display: flex;
     min-height: 50px;
     margin: 0 auto;
 }
 
 .page1Header {
+    transition-duration: 0.3s;
     flex: 1;
     text-align: center;
     border-radius: 10px;
@@ -17,24 +21,65 @@ body {
     border: 2px solid #db7955;
 }
 
+.page1Header:hover {
+    font-size: larger;
+}
+
 .homeButton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     transition-duration: 0.3s;
     margin-left: 2%;
-    flex: 0.3;
+    flex: 0.2;
     border: 2px solid #db7955;
     border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
     font-stretch: expanded;
     background: linear-gradient(to bottom, #e88b69, #d5a064);
 }
+
 .homeButton:hover {
     background: linear-gradient(to bottom, #ffcebc, #ffdcb6);
     color: white; 
+    cursor: pointer;
+    font-size: large;
+}
+
+.infoButton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-duration: 0.3s;
+    margin-left: 2%;
+    flex: 0.2;
+    border: 2px solid #db7955;
+    border-radius: 10px;
+    font-stretch: expanded;
+    background: linear-gradient(to bottom, #e88b69, #d5a064);
+}
+
+.infoButton:hover {
+    background: linear-gradient(to bottom, #ffcebc, #ffdcb6);
+    color: white; 
+    cursor: pointer;
+    font-size: large;
+}
+
+.companiesButton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-duration: 0.3s;
+    margin-left: 2%;
+    flex: 0.2;
+    border: 2px solid #db7955;
+    border-radius: 10px;
+    font-stretch: expanded;
+    background: linear-gradient(to bottom, #e88b69, #d5a064);
+}
+
+.companiesButton:hover {
+    background: linear-gradient(to bottom, #ffcebc, #ffdcb6);
+    color: white; 
+    cursor: pointer;
+    font-size: large;
 }
 
 .page1Header h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     font-stretch: expanded;
 }
