@@ -3,20 +3,24 @@ body {
 }
 
 .page1Header {
-    width: 35%;
-    height: 2.5%;
+    flex: 1;
     text-align: center;
     border-radius: 10px;
     color: black;
     background: linear-gradient(to bottom, #e88b69, #d5a064);
     border: 2px solid #db7955;
-    margin: auto;
 }
 
-.Home button {
-    height: 50px;
+.headerContainer {
+    display: flex;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+.homeButton {
+    margin-left: 2%;
+    flex: 1;
     border: 2px solid #db7955;
-    margin: auto;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
