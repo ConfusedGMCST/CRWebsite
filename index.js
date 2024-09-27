@@ -8,7 +8,10 @@ window.onload = function() {
     })
     HomeButton.addEventListener("mousedown", function() {
         this.style.cursor = "default"
-        alert("hi");
         /*window.location.href = ""; I'll set when I deploy the website ¯\_(ツ)_/¯*/
     })
+}
+
+function homePage() {
+    window.open("index.html","_self")
 }

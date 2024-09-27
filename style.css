@@ -2,6 +2,12 @@ body {
     background: linear-gradient(90deg, #e66465, #9198e5);
 }
 
+.headerContainer {
+    display: flex;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
 .page1Header {
     flex: 1;
     text-align: center;
@@ -11,21 +17,20 @@ body {
     border: 2px solid #db7955;
 }
 
-.headerContainer {
-    display: flex;
-    min-height: 50px;
-    margin: 0 auto;
-}
-
 .homeButton {
+    transition-duration: 0.3s;
     margin-left: 2%;
-    flex: 1;
+    flex: 0.3;
     border: 2px solid #db7955;
     border-radius: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     font-stretch: expanded;
     background: linear-gradient(to bottom, #e88b69, #d5a064);
+}
+.homeButton:hover {
+    background: linear-gradient(to bottom, #ffcebc, #ffdcb6);
+    color: white; 
 }
 
 .page1Header h1 {
