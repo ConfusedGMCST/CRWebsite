@@ -95,6 +95,10 @@ body {
 
 .companiesContainer {
     display: flex;
+    color: black;
+    font-family: lato;
+    font-size: medium;
+    text-align: center;
 }
 
 .companiesHeading {
