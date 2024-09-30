@@ -99,6 +99,7 @@ body {
     font-family: lato;
     font-size: medium;
     text-align: center;
+    transition-duration: 2s;
 }
 
 .companiesHeading {
