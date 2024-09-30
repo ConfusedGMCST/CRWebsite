@@ -3,6 +3,15 @@ body {
     background: linear-gradient(90deg, #e66465, #9198e5);
 }
 
+@font-face {
+    font-family: lato;
+    src: url(Lato-Italic.ttf);
+}
+  
+  div {
+    font-family: lato;
+}
+
 .headerContainer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
@@ -84,3 +93,37 @@ body {
     font-stretch: expanded;
 }
 
+.companiesContainer {
+    display: flex;
+}
+
+.companiesHeading {
+    opacity: 0;
+    transition-duration: 1.5s;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-family: lato;
+    font-size: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.steam {
+    height: 100%;
+    border-radius: 15px 80px;
+    background-color: white;
+}
+
+.apple {
+    transition-duration: 2s;
+    height: 100%;
+    border-radius: 15px 80px;
+    background-color: white;
+}
+
+.ferrari {
+    transition-duration: 2s;
+    height: 100%;
+    border-radius: 15px 80px;
+    background-color: white;
+}
