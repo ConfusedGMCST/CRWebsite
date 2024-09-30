@@ -95,6 +95,7 @@ body {
 
 .companiesContainer {
     display: flex;
+    justify-content: space-around;
     color: black;
     font-family: lato;
     font-size: medium;
@@ -109,25 +110,12 @@ body {
     text-shadow: 1px 1px black;
     font-family: lato;
     font-size: 100%;
-    margin-top: 5%;
+    margin-top: auto;
     text-align: center;
 }
 
-.steam {
-    height: 100%;
-    border-radius: 15px 80px;
-    background-color: white;
-}
-
-.apple {
-    transition-duration: 2s;
-    height: 100%;
-    border-radius: 15px 80px;
-    background-color: white;
-}
-
-.ferrari {
-    transition-duration: 2s;
+.steam, .apple, .ferrari {
+    width: auto; /* Adjust as needed */
     height: 100%;
     border-radius: 15px 80px;
     background-color: white;

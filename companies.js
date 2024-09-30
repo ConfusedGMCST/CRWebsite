@@ -5,7 +5,5 @@ window.onload = function() {
     compHeading.style.opacity = "0.5";
     compHeading.style.fontSize = "300%";
     compHeading.style.textShadow = "10px 2px black";
-    apple.style.marginLeft = "20.25%";
-    ferrari.style.marginLeft = "20.25%";
     //compHeading.style.color = "#fb2500";
 }
