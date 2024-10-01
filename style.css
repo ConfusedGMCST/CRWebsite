@@ -3,17 +3,7 @@ body {
     background: linear-gradient(90deg, #e66465, #9198e5);
 }
 
-@font-face {
-    font-family: lato;
-    src: url(Lato-Italic.ttf);
-}
-  
-  div {
-    font-family: lato;
-}
-
 .headerContainer {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
     display: flex;
     min-height: 50px;
@@ -21,68 +11,74 @@ body {
 }
 
 .page1Header {
+    font-family: 'vcrOSD';
     transition-duration: 0.3s;
     flex: 1;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 2px;
     color: black;
-    background: linear-gradient(to bottom, #e88b69, #d5a064);
-    border: 2px solid #db7955;
+    background: transparent;
+    border: 5px solid #94e2eb;
 }
 
 .page1Header:hover {
+    color: white;
     font-size: larger;
 }
 
 .homeButton {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'vcrOSD';
+    font-weight: bold;
     transition-duration: 0.3s;
     margin-left: 2%;
     flex: 0.2;
-    border: 2px solid #db7955;
-    border-radius: 10px;
+    border: 5px solid #94e2eb;
+    background-color: transparent;
+    border-radius: 2px;
     font-stretch: expanded;
-    background: linear-gradient(to bottom, #e88b69, #d5a064);
 }
 
 .homeButton:hover {
-    background: linear-gradient(to bottom, #ffcebc, #ffdcb6);
+    font-weight: normal;
     color: white; 
     cursor: pointer;
     font-size: large;
+
 }
 
 .infoButton {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'vcrOSD';
+    font-weight: bold;
     transition-duration: 0.3s;
     margin-left: 2%;
     flex: 0.2;
-    border: 2px solid #db7955;
-    border-radius: 10px;
+    border: 5px solid #94e2eb;
+    border-radius: 2px;
     font-stretch: expanded;
-    background: linear-gradient(to bottom, #e88b69, #d5a064);
+    background: transparent;
 }
 
 .infoButton:hover {
-    background: linear-gradient(to bottom, #ffcebc, #ffdcb6);
+    font-weight: normal;
     color: white; 
     cursor: pointer;
     font-size: large;
 }
 
 .companiesButton {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'vcrOSD';
+    font-weight: bold;
     transition-duration: 0.3s;
     margin-left: 2%;
     flex: 0.2;
-    border: 2px solid #db7955;
-    border-radius: 10px;
+    border: 5px solid #94e2eb;
+    border-radius: 2px;
     font-stretch: expanded;
-    background: linear-gradient(to bottom, #e88b69, #d5a064);
+    background: transparent;
 }
 
 .companiesButton:hover {
-    background: linear-gradient(to bottom, #ffcebc, #ffdcb6);
+    font-weight: normal;
     color: white; 
     cursor: pointer;
     font-size: large;
@@ -116,6 +112,7 @@ body {
 
 .steam, .apple, .ferrari {
     width: auto; /* Adjust as needed */
+    font-family: lato;
     height: 100%;
     border-radius: 15px 80px;
     background-color: white;

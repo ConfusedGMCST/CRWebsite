@@ -1,0 +1,8 @@
+@font-face {
+    font-family: vcrOSD;
+    src: url(VCR_OSD_MONO_1.001.ttf);
+}
+  
+div {
+    font-family: vcrOSD;
+}
