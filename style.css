@@ -1,0 +1,63 @@
+body {
+    background: #282828;
+    width: 99%;
+    height: 100%;
+}
+
+header {
+    background-color: #333; /* dark gray background */
+    color: #fff; /* white text */
+    padding: 20px;
+    text-align: left;
+    margin-top: 0;
+    font-size: medium;
+    font-family: lato;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    transition-duration: 0.3s;
+    display: inline-block;
+    margin: 0 auto 0 5%;
+    width: 8%;
+    text-align: center;
+    border-radius: 4px;
+}
+
+nav li:hover {
+    background-color: #4a4ebf;
+}
+  
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.bigText {
+    transition: background-position 0.5s, color 0.5s;
+    font-family: lato;
+    background: linear-gradient(90deg, #4a4ebf 0%, #7872ce 50%, #a098dd 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-animation: Gradient 3s ease infinite;
+    animation: Gradient 3s ease infinite;
+    font-size: 800%;
+    margin-left: 2%;
+    margin-top: 15%;
+}
+
+.bigText:hover {
+    background-position: 100% 100%, 0% 0%; /* moves the gradient out of view */
+    color: #ffffff; /* change the color directly on hover */
+}
