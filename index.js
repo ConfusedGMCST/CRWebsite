@@ -1,0 +1,1 @@
+const bigText = document.getElementById("bigText")

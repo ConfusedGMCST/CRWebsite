@@ -48,6 +48,31 @@ h1 {
     margin-top: 0;
 }
 
+@keyframes comeIn {
+    0% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 2%;
+    }
+}
+
+.homeText {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.homeText p {
+    margin-top: 2%;
+    font-family: lato;
+    color: #a098dd;
+    font-size: xx-large;
+    line-height: 200%;
+    width: 30%;
+    margin-left: 30%;
+}
+
 .bigText {
     transition: background-position 0.5s, color 0.5s;
     font-family: lato;
@@ -60,11 +85,12 @@ h1 {
     overflow-wrap: anywhere;
     font-size: 800%;
     padding: 0%;
+    animation: comeIn 1.5s ease-in-out;
     margin-left: 2%;
-    margin-top: 14%;
+    margin-top: 15%;
 }
 
 .bigText:hover {
     background-position: 100% 100%, 0% 0%;
-    color: #b3ace4;
+    color: #bb5454;
 }
