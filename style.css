@@ -66,6 +66,17 @@ h1 {
     }
 }
 
+@keyframes colorIn {
+    0% {
+        background-color: #282828;
+        color: #282828;
+    }
+    100% {
+        color: white;
+        background-color: #3f3f3f;
+    }
+}
+
 .homeText {
     display: flex;
     flex-direction: row;
@@ -167,6 +178,14 @@ h1 {
     margin-top: 5%;
 }
 
+.appleP1 {
+    width: 30%;
+    background-color: #3f3f3f;
+    padding: 1%;
+    border-radius: 15px;
+    margin-right: 2%;
+}
+
 .ferrariUl {
     display: flex;
     justify-content: space-between;
@@ -182,6 +201,49 @@ h1 {
     background-color: #3f3f3f;
     padding: 1%;
     border-radius: 15px;
+}
+
+.activismUl {
+    display: flex;
+    justify-content: space-between;
+    font-family: lato;
+    font-size: xx-large;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.activismDiv {
+    margin-top: 5%;
+}
+
+.activismP1 {
+    animation: colorIn 3s;
+    width: 30%;
+    color: white;
+    background-color: #3f3f3f;
+    padding: 3%;
+    margin-right: 2%;
+    border-radius: 15px;
+}
+
+.activismP2 {
+    animation: colorIn 3s;
+    width: 30%;
+    color: white;
+    background-color: #3f3f3f;
+    padding: 1%;
+    border-radius: 15px;
+    margin-right: 3%;
+}
+
+.activismP3 {
+    animation: colorIn 3s;
+    width: 30%;
+    color: white;
+    background-color: #3f3f3f;
+    padding: 1%;
+    border-radius: 15px;
+    margin-right: 2%;
 }
 
 .ferrariP2 {
