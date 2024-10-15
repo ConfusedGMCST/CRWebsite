@@ -57,6 +57,15 @@ h1 {
     }
 }
 
+@keyframes comeIn2 {
+    0% {
+        margin-right: -100%;
+    }
+    100% {
+        margin-right: 0%;
+    }
+}
+
 .homeText {
     display: flex;
     flex-direction: row;
@@ -93,4 +102,67 @@ h1 {
 .bigText:hover {
     background-position: 100% 100%, 0% 0%;
     color: #bb5454;
+}
+
+.companyDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    animation: comeIn2 1.5s ease-out;
+}
+
+.companyDiv div {
+    background-color: white;
+    border-radius: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.companyDiv div h2 {
+    font-family: lato;
+}
+
+.right {
+    margin-right: 5%;
+}
+
+.left {
+    margin-left: 5%;
+}
+
+.steamHeader {
+    font-family: lato;
+    color: #fe578d;
+    margin-top: 2%;
+    font-size: 400%;
+}
+
+.appleHeader {
+    font-family: lato;
+    color: #fe578d;
+    margin-top: 2%;
+    font-size: 400%;
+}
+
+.ferrariHeader {
+    font-family: lato;
+    color: #fe578d;
+    margin-top: 2%;
+    font-size: 400%;
+}
+
+.hi {
+    font-family: lato;
+    line-height: 200%;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    color: #6bbaa3;
+}
+
+.hi1 {
+    background-color: #3f3f3f;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 5%;
 }
