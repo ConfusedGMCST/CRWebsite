@@ -73,13 +73,14 @@ h1 {
 }
 
 .homeText p {
+    position: relative;
     margin-top: 2%;
     font-family: lato;
     color: #a098dd;
     font-size: xx-large;
     line-height: 200%;
     width: 30%;
-    margin-left: 30%;
+    left: 20%;
 }
 
 .bigText {
@@ -93,7 +94,6 @@ h1 {
     animation: Gradient 3s ease infinite;
     overflow-wrap: anywhere;
     font-size: 800%;
-    padding: 0%;
     animation: comeIn 1.5s ease-in-out;
     margin-left: 2%;
     margin-top: 15%;
@@ -165,4 +165,46 @@ h1 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     margin-top: 5%;
+}
+
+.ferrariUl {
+    display: flex;
+    justify-content: space-between;
+    font-family: lato;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+.ferrariP1 {
+    width: 30%;
+    background-color: #3f3f3f;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.ferrariP2 {
+    background-color: #3f3f3f;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.ferrariP3 {
+    width: 30%;
+    background-color: #3f3f3f;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.ferrariP4 {
+    width: 70%;
+    font-family: lato;
+    color: white;
+    font-size: large;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+    background-color: #3f3f3f;
+    padding: 1%;
+    border-radius: 15px;
 }
